@@ -1,0 +1,28 @@
+### Viendo Peticiones
+
+###--------------------------------
+#GET -
+GET https://ies21.edu.ar/
+
+###--------------------------------
+#GET - Usuarios Platzi
+
+GET https://69cbcb780b417a19e07b42c1.mockapi.io/api/v1/Productos
+
+###--------------------------------
+
+GET http://localhost:3001
+
+###-------------------
+#POST -
+POST http://localhost:3001 
+Content-Type: 'text/plain'
+contenido mas largo
+
+###-------------------
+#PUT -
+PUT http://localhost:3001 
+
+###-------------------
+#DELETE-
+DELETE http://localhost:3001 
