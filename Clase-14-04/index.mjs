@@ -4,8 +4,11 @@
 import http from 'node:http'
 import fsp from 'node:fs/promises'
 
+console.log('ejecuta cuando se levanta el servidor')
+
 const app = http.createServer(async (peticion, respuesta) => {
     
+    console.log('Se ejecuta en cada peticion')
     // Extraemos method y url para escribir menos código
     const { method, url } = peticion;
 

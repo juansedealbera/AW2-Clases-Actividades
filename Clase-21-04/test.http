@@ -1,0 +1,21 @@
+###
+
+GET http://localhost:3005
+
+###
+
+GET http://localhost:3005/usuarios
+
+###
+
+POST http://localhost:3005/usuarios
+
+Cuerpo datos
+
+###
+
+GET http://192.169.0.126:3012
+
+//192.169.0.128:3012 (128 numero de pc)
+
+//172.21.0.1
